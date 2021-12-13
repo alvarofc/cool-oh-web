@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.scroll-mgt {
+    scroll-margin-top: 5em;
+}
+
+.no-bar::-webkit-scrollbar {
+    display:none;
+}
+.no-bar {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}

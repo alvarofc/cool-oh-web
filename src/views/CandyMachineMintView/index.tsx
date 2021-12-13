@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FC } from "react";
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import { Nav } from "components/Nav";
+
 import * as anchor from "@project-serum/anchor";
 
 import { SolanaLogo } from "components";
@@ -24,32 +25,8 @@ export const CandyMachineMintView: FC = ({}) => {
   return (
     <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
       <div className={styles.container}>
-        <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
-          <div className="flex-none">
-            <button className="btn btn-square btn-ghost">
-              <span className="text-4xl">🍬</span>
-            </button>
-          </div>
-          <div className="flex-1 px-2 mx-2">
-            <div className="text-sm breadcrumbs">
-              <ul className="text-xl">
-                <li>
-                  <Link href="/">
-                    <a>Templates</a>
-                  </Link>
-                </li>
-                <li>
-                  <span className="opacity-40">NFT Mint UI</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="flex-none">
-            <WalletMultiButton className="btn btn-ghost" />
-          </div>
-        </div>
-
+       
+        <Nav />
         <div className="text-center pt-2">
           <div className="hero min-h-16 py-20">
             <div className="text-center hero-content">
