@@ -29,7 +29,7 @@ export const Nav = () => {
         className=" inline-flex p-3 hover:bg-grey-600 rounded lg:hidden ml-auto hover:text-gray-500 outline-none text-2xl text-gray-500 "
         onClick={handleClick}
       >
-        {active ? BiX() : BiMenu()}
+        {active ? <BiX /> : <BiMenu />}
       </button>
       {/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
       <div
@@ -72,10 +72,10 @@ export const Nav = () => {
               </button>
             </Link>
           )}
-          <a href="https://twitter.com/cool_oh_nft" target="_blank" >
+          <a href="https://twitter.com/cool_oh_nft" target="_blank" rel="noreferrer">
           <ImTwitter className={`${active ? "hidden" : ""} mx-2`}/>
           </a>
-          <a href="https://discord.gg/HDfcd9FF" target="_blank">
+          <a href="https://discord.gg/HDfcd9FF" target="_blank" rel="noreferrer">
           <FaDiscord className={`${active ? "hidden" : ""} mx-2`}/>
           </a>
         </div>
