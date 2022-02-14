@@ -31,7 +31,7 @@ export const Nav = () => {
       >
         {active ? <BiX /> : <BiMenu />}
       </button>
-      {/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
+      {/*Note that in this div we will use a ternary operator to decide whether to display the content of the div  */}
       <div
         className={`${
           active ? "" : "hidden"
@@ -73,10 +73,10 @@ export const Nav = () => {
             </Link>
           )}
           <a href="https://twitter.com/cool_oh_nft" target="_blank" rel="noreferrer">
-          <ImTwitter className={`${active ? "hidden" : ""} mx-2`}/>
+          <ImTwitter className={`${active ? "hidden" : ""} mx-2 hover:fill-gray-400`} color={'#1DA1F2'}/>
           </a>
           <a href="https://discord.gg/HDfcd9FF" target="_blank" rel="noreferrer">
-          <FaDiscord className={`${active ? "hidden" : ""} mx-2`}/>
+          <FaDiscord className={`${active ? "hidden" : ""} mx-2 hover:fill-gray-400`} color={"#5865F2"}/>
           </a>
         </div>
       </div>
