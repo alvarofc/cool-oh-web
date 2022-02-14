@@ -8,6 +8,7 @@ import styles from "./index.module.css";
 import {ImTwitter} from 'react-icons/im'
 import {FaDiscord} from 'react-icons/fa'
 import { Slide } from "components/Slide";
+import Roadmap from "../../components/Roadmap";
 
 export const HomeView: FC = ({}) => {
   const { publicKey } = useWallet();
@@ -33,7 +34,7 @@ export const HomeView: FC = ({}) => {
                   Daisy UI.
                 </p>
                 <p className="mb-5">
-                  Sollana wallet adapter is connected and ready to use.
+                  Solana wallet adapter is connected and ready to use.
                 </p>
                 <ul className="flex items-center gap-4 content-between place-content-center">
                   <li><a className="btn border-0 bg-blue-400  hover:rounded-md hover:bg-blue-300 transition duration-500 ease-in-out transform  hover:scale-105" href="https://twitter.com/cool_oh_nft" target="_blank" rel="noreferrer"> <ImTwitter className="mr-2"/>Follow Us</a></li>
@@ -67,25 +68,26 @@ export const HomeView: FC = ({}) => {
         </section>
         <section id="roadmap" className="scroll-mgt">
           <div>
-            <h2>Roadmap</h2>
+            <h2 className=" text-2xl text-white font-bold">Roadmap</h2>
+            <Roadmap />
             </div> </section>
         <section id="rarity" className="scroll-mgt"> 
         <div>
-          <h2>Rarity</h2>
+          <h2 className=" text-2xl text-white font-bold">Rarity</h2>
         </div>
         </section>
         <section id="team" className="scroll-mgt"> 
         <div>
-          <h2>
+          <h2 className=" text-2xl text-white font-bold">
             Team
           </h2>
         </div>
         </section>
         <section id="faq" className="scroll-mgt"> 
-        <h2>F.A.Q.</h2>
+        <h2 className=" text-2xl text-white font-bold">F.A.Q.</h2>
         </section>
         <footer className="">
-          <h2 className="text-xl font-black">Get deeper</h2>
+          <h2 className=" text-2xl text-white font-bold">Get deeper</h2>
           <ImTwitter className="text-blue-300"/>
         </footer>
       </div>
