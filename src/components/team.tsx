@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/dist/client/image";
-import test from "/public/team/test.png"
 import alvaro from "/public/team/alvaro.jpg"
 import paola from "/public/team/paola.jpg"
 import carlos from "/public/team/carlos.jpg"
 import raul from "/public/team/raul.jpg"
-import yonchu from "/public/team/yonchu.jpg"
+import yonchu from "/public/team/Yonchu.jpg"
 import {ImTwitter, ImLinkedin} from 'react-icons/im'
 
 function Team() {
