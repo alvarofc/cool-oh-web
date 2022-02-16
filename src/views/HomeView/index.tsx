@@ -10,6 +10,7 @@ import {FaDiscord} from 'react-icons/fa'
 import { Slide } from "components/Slide";
 import Roadmap from "../../components/Roadmap";
 import Team from "../../components/team";
+import Faq from "../../components/Faq"
 
 export const HomeView: FC = ({}) => {
   const { publicKey } = useWallet();
@@ -49,7 +50,7 @@ export const HomeView: FC = ({}) => {
           <div className="flow-root">
             <div className="float-left object-center">
               <p className=" text-2xl text-white font-bold">What are Cool-Ohs?</p>
-              <p className="pt-4">It all began with a fart...</p>
+              <p className="pt-4">The Cooloh-verse as we know it started with the Big Fart...</p>
               <button className="btn border-0 place-content-center mt-10">Un boton</button>
             </div>
             <div className="float-right ">
@@ -84,6 +85,7 @@ export const HomeView: FC = ({}) => {
         </section>
         <section id="faq" className="scroll-mgt"> 
         <h2 className=" text-2xl text-white font-bold">F.A.Q.</h2>
+          <Faq />
         </section>
         <footer className="">
           <h2 className=" text-2xl text-white font-bold">Get deeper</h2>

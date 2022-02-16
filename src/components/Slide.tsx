@@ -46,6 +46,17 @@ export const Slide = () => {
       <div className="snap-center shrink-0">
       <div className="shrink-0 w-4 sm:w-48"></div>
     </div>
+      <div className="flex mx-auto my-8">
+        <ul className="flex justify-center">
+
+          <li className="h-6 w-6 rounded-full mx-2 cursor-pointer bg-white"></li>
+          <li className="h-6 w-6 rounded-full mx-2 cursor-pointer bg-white"></li>
+          <li className="h-6 w-6 rounded-full mx-2 cursor-pointer bg-white"></li>
+          <li className="h-6 w-6 rounded-full mx-2 cursor-pointer bg-white"></li>
+          <li className="h-6 w-6 rounded-full mx-2 cursor-pointer bg-white"></li>
+          <li className="h-6 w-6 rounded-full mx-2 cursor-pointer bg-white"></li>
+        </ul>
+      </div>
     </div>
   );
 };
