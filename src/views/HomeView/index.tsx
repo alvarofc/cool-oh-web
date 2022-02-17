@@ -38,7 +38,7 @@ export const HomeView: FC = ({}) => {
                 </p>
                 <ul className="flex items-center gap-4 content-between place-content-center">
                   <li><a className="btn border-0 bg-blue-400  hover:rounded-md hover:bg-blue-300 transition duration-500 ease-in-out transform  hover:scale-105" href="https://twitter.com/cool_oh_nft" target="_blank" rel="noreferrer"> <ImTwitter className="mr-2"/>Follow Us</a></li>
-                  <li><a className="btn border-0 bg-indigo-400 hover:rounded-md hover:bg-indigo-300 transition duration-500 ease-in-out transform  hover:scale-105" href="https://discord.gg/HDfcd9FF" target="_blank" rel="noreferrer"><FaDiscord className="mr-2"/> Join Us</a></li>
+                  <li><a className="btn border-0 bg-indigo-400 hover:rounded-md hover:bg-indigo-300 transition duration-500 ease-in-out transform  hover:scale-105" href="https://discord.com/invite/mJD86nUtUZ" target="_blank" rel="noreferrer"><FaDiscord className="mr-2"/> Join Us</a></li>
                 </ul>
               </div>
             </div>

@@ -75,7 +75,7 @@ export const Nav = () => {
           <a href="https://twitter.com/cool_oh_nft" target="_blank" rel="noreferrer">
           <ImTwitter className={`${active ? "hidden" : ""} mx-2 hover:fill-gray-400`} color={'#1DA1F2'}/>
           </a>
-          <a href="https://discord.gg/HDfcd9FF" target="_blank" rel="noreferrer">
+          <a href="https://discord.com/invite/mJD86nUtUZ" target="_blank" rel="noreferrer">
           <FaDiscord className={`${active ? "hidden" : ""} mx-2 hover:fill-gray-400`} color={"#5865F2"}/>
           </a>
         </div>
