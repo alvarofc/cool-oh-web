@@ -12,6 +12,7 @@ import Roadmap from "../../components/Roadmap";
 import Team from "../../components/team";
 import Faq from "../../components/Faq"
 
+
 export const HomeView: FC = ({}) => {
   const { publicKey } = useWallet();
 
@@ -84,14 +85,12 @@ export const HomeView: FC = ({}) => {
         </div>
         </section>
         <section id="faq" className="scroll-mgt"> 
-        <h2 className=" text-2xl text-white font-bold">F.A.Q.</h2>
+        <h2 className=" text-2xl text-white font-bold">Frequently Asked Questions</h2>
           <Faq />
         </section>
-        <footer className="">
-          <h2 className=" text-2xl text-white font-bold">Get deeper</h2>
-          <ImTwitter className="text-blue-300"/>
-        </footer>
+
       </div>
+
     </div>
   );
 };

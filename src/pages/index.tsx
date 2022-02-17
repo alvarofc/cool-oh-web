@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { HomeView } from "../views";
+import Footer from "../components/Footer";
 
 
 const Home: NextPage = (props) => {
@@ -14,6 +15,7 @@ const Home: NextPage = (props) => {
         />
       </Head>
       <HomeView />
+      <Footer />
     </div>
   );
 };
