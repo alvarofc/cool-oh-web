@@ -119,7 +119,8 @@ function Roadmap() {
             </p>
           </div>
         </div>
-        <div className="flex md:contents">
+        {/* left */}
+        <div className="flex flex-row-reverse md:contents">
           <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
             <div className="h-full w-6 flex items-center justify-center">
               <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
