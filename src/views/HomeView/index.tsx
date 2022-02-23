@@ -32,10 +32,10 @@ export const HomeView: FC = ({}) => {
                 </h1>
                 
                 <p className="mb-5">
-                  Cool-Oh is an NFT collection all about our great friend, the derriere.
+                  Cool-Oh is an NFT collection devoted to our great friend, the derriere.
                 </p>
                 <p className="mb-5">
-                  You can follow what we do and join us. We show you everything whe do and how we do it
+                  We are building our collection in the open. You can follow us to learn everything about what we do and how we do it.
                 </p>
                 <ul className="flex items-center gap-4 content-between place-content-center">
                   <li><a className="btn border-0 bg-blue-400  hover:rounded-md hover:bg-blue-300 transition duration-500 ease-in-out transform  hover:scale-105" href="https://twitter.com/cool_oh_nft" target="_blank" rel="noreferrer"> <ImTwitter className="mr-2"/>Follow Us</a></li>
@@ -51,8 +51,10 @@ export const HomeView: FC = ({}) => {
           <div className="flow-root">
             <div className="float-left object-center">
               <p className=" text-2xl text-white font-bold">What are Cool-Ohs?</p>
-              <p className="pt-4">The Cooloh-verse as we know it started with the Big Fart...</p>
-              <button className="btn border-0 place-content-center mt-10">Un boton</button>
+              <p className="pt-4">Cool-ohs are the living creatures of the Cooloh-verse. The Cooloh-verse as we know it, started with the Big Fart. Since this historical episode, our cool-ohs have become the rockstars of video-games, animated miniseries, apps, and more. </p>
+              <p className="pt-4">In 2022, cool-ohs will become an exclusive NFT collection, which will be devoted to share all the process of launching an NFT project from scratch, documenting publicly our “behind the cheeks” including steps taken, decisions made, code built, mistakes, trial and error, and more... We don’t want anyone to miss a fart.</p>
+            <p className="pt-4">This world is full of cool-ohs, and we all should have one.</p>
+              <button className="btn border-0 place-content-center mt-10">Visit our Blog</button>
             </div>
             <div className="float-right ">
               <div className="w-50 items-center">
