@@ -24,7 +24,7 @@ function Team() {
       "bio": "Artist"
     },
     {
-      "name" : "Alvaro Fragoso",
+      "name" : "Carlos de la Lama",
       "twitter" : "https://twitter.com/cdelalama",
       "linkedin" : "https://www.linkedin.com/in/cdelalama/",
       "image" : carlos,
@@ -43,7 +43,7 @@ function Team() {
       "twitter" : "https://twitter.com/impact_minds",
       "linkedin" : "https://www.linkedin.com/in/paolatellezmu%C3%B1oz",
       "image" : paola,
-      "bio": ""
+      "bio": "Community leader"
     },
     {
       "name" : "Raúl Riusech",
