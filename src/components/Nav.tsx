@@ -2,14 +2,15 @@ import { useState } from "react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import Image from "next/image";
 import Link from "next/link";
-import futbolista from "/public/futbolista.png";
+import cool_oh_logo from "/public/logo_cool-oh_alpha_128x128.png";
+
 import { ImTwitter } from "react-icons/im";
 import {FaDiscord} from 'react-icons/fa'
 import { BiMenu, BiX } from "react-icons/bi";
 
 export const Nav = () => {
   const [active, setActive] = useState(false);
-  
+
 
   const handleClick = () => {
     setActive(!active);
@@ -20,7 +21,7 @@ export const Nav = () => {
       <div className="flex-none">
         <Link href={"/"} passHref={true}>
           <button className={`btn ${active ? "hidden" : ""} btn-square bg-white border-0 hover:bg-white`}>
-            <Image src={futbolista} alt="futbolista logo" />
+            <Image src={cool_oh_logo} alt="cool-oh logo" />
           </button>
         </Link>
       </div>

@@ -2,7 +2,9 @@
 import { FC } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { Nav } from "components/Nav";
-import futbolista from "/public/futbolista.png"
+import madonna from "/public/cool_ohbrities/madonna_500x500.png";
+
+
 import Image from "next/dist/client/image";
 import styles from "./index.module.css";
 import {ImTwitter} from 'react-icons/im'
@@ -30,7 +32,7 @@ export const HomeView: FC = ({}) => {
                 <h1 className="mb-5 text-5xl font-bold">
                   Welcome to the <br/><span className={"text-7xl text-transparent bg-clip-text bg-gradient-to-br from-cyan-200 to-green-400"}>Cooloh-verse!</span>
                 </h1>
-                
+
                 <p className="mb-5">
                   Cool-Oh is an NFT collection devoted to our great friend, the derriere.
                 </p>
@@ -58,35 +60,39 @@ export const HomeView: FC = ({}) => {
             </div>
             <div className="float-right ">
               <div className="w-50 items-center">
-            <Image src={futbolista} alt="futbolista logo" className=""/>
+            <Image src={madonna} alt="Madonna Cool-ohbrity" className=""/>
             </div>
             </div>
-          </div>  
+          </div>
         </section>
         <section id="slider" className="scroll-mgt">
-        
-          
+
+
           <Slide />
-        
+
         </section>
         <section id="roadmap" className="scroll-mgt">
           <div>
             <h2 className=" text-2xl text-white font-bold">Roadmap</h2>
             <Roadmap />
             </div> </section>
+
         <section id="rarity" className="hidden scroll-mgt">
+
         <div>
           <h2 className=" text-2xl text-white font-bold">Rarity</h2>
         </div>
         </section>
-        <section id="team" className="scroll-mgt"> 
+        <section id="team" className="scroll-mgt">
         <div>
           <h2 className=" text-2xl text-white font-bold">Team</h2>
 
           <Team />
         </div>
         </section>
+
         <section id="faq" className="hidden scroll-mgt">
+
         <h2 className=" text-2xl text-white font-bold">Frequently Asked Questions</h2>
           <Faq />
         </section>

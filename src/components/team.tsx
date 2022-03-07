@@ -24,11 +24,11 @@ function Team() {
       "bio": "Artist"
     },
     {
-      "name" : "Carlos de la Lama",
+      "name" : "Carlos de la Lama-Noriega",
       "twitter" : "https://twitter.com/cdelalama",
       "linkedin" : "https://www.linkedin.com/in/cdelalama/",
       "image" : carlos,
-      "bio": "No idea"
+      "bio": "Web 3 developer"
     },
     {
       "name" : "Álvaro Fragoso",
@@ -50,7 +50,7 @@ function Team() {
       "twitter" : "https://twitter.com/jrvtrading",
       "linkedin" : "https://www.linkedin.com/in/raul-riusech-vega-1a810722",
       "image" : raul,
-      "bio": "Dream builder"
+      "bio": "Social Media & PR"
     }
   ]
   return (
