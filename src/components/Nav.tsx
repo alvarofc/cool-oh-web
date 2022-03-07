@@ -65,13 +65,14 @@ export const Nav = () => {
           </Link>
           {document.URL.split("/")[3] == "mint" ? (
             <WalletMultiButton className="btn btn-ghost bg-grey-200" />
-          ) : (
-            <Link href="/mint" passHref>
+          ) : document.URL.split("/")[3] == "early" ? null
+            : (
+            <Link href="/early" passHref>
               <button className="btn transition border-0 duration-500 ease-in-out   transform mr-2 hover:-translate-y-1 hover:bg-gradient-to-br from-pink-500 to-yellow-500">
                 Mint Your Cool-Oh
               </button>
             </Link>
-          )}
+          )  }
           <a href="https://twitter.com/cool_oh_nft" target="_blank" rel="noreferrer">
           <ImTwitter className={`${active ? "hidden" : ""} mx-2 hover:fill-gray-400`} color={'#1DA1F2'}/>
           </a>
