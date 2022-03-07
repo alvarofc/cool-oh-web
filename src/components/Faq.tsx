@@ -19,8 +19,9 @@ function Faq() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                If you&apos;re unhappy with your purchase for any reason, email us
-                within 90 days and we&apos;ll refund you in full, no questions asked.
+                The Cool-ohverse is a world of pun-intended avatars of butts to take over the world... by the backdoor!
+                Since 2005, the world of Cool-oh has been in mobile games, cartoons and animations. 
+                In 2022 Cool-ohs are jumping to the metaverse as a series of NFTs!
               </Disclosure.Panel>
             </>
           )}
@@ -37,7 +38,7 @@ function Faq() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                No.
+                Very soon! We&apos;re in the early stage of development of the collection, and that is great news for you! We&apos;re building our community and hope start minting in May 2022.
               </Disclosure.Panel>
             </>
           )}
@@ -54,7 +55,7 @@ function Faq() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                No.
+                Price will be 1 SOL, but you will have plenty of chances to get a Cool-oh at a great discount or even for free with airdrops. Join our community early to have a good chance!
               </Disclosure.Panel>
             </>
           )}
@@ -71,7 +72,7 @@ function Faq() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                No.
+                At this stage, our intention is to mint around 10,000 Cool-ohs. But as we are in such early stage we might start with smaller series first if our community agrees.
               </Disclosure.Panel>
             </>
           )}
@@ -88,7 +89,9 @@ function Faq() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                Minting will be directly on our site www.cool-oh.com
+                Minting will be directly on our site www.cool-oh.com.
+                Follow our Social accounts and join our Diescord server to get notified of airdrops!
+                You will find all the links here: <a href="https://linktr.ee/cool_oh/"> Cool-Oh Links </a>
               </Disclosure.Panel>
             </>
           )}

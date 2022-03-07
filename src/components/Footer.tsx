@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/dist/client/image";
-import futbolista from "/public/futbolista.png"
+import cool_oh_logo from "/public/logo_cool-oh_alpha_128x128.png"
 import { ImTwitter } from "react-icons/im";
 import {FaDiscord} from 'react-icons/fa'
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
       <div className="items-center grid-flow-col">
         <div className="avatar">
           <div className="w-16 rounded-full">
-            <Image src={futbolista} />
+            <Image src={cool_oh_logo} />
           </div>
         </div>
         <p>Copyright © 2022 - All right reserved</p>
