@@ -58,17 +58,17 @@ export const Nav = () => {
           </Link>
           </div>
           <Link href="/#team">
-            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 scroll-smooth mr-2">
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 scroll-smooth ">
               Team
             </a>
           </Link>
-          <div className={"hidden"}>
+
           <Link href="/#faq">
             <a className=" lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 mr-2 scroll-smooth">
               FAQ
             </a>
           </Link>
-          </div>
+
           {document.URL.split("/")[3] == "mint" ? (
             <WalletMultiButton className="btn btn-ghost bg-grey-200" />
           ) : document.URL.split("/")[3] == "early" ? null

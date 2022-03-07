@@ -91,7 +91,7 @@ export const HomeView: FC = ({}) => {
         </div>
         </section>
 
-        <section id="faq" className="hidden scroll-mgt">
+        <section id="faq" className="scroll-mgt">
 
         <h2 className=" text-2xl text-white font-bold">Frequently Asked Questions</h2>
           <Faq />
