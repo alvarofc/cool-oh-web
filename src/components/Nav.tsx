@@ -44,26 +44,31 @@ export const Nav = () => {
               What
             </a>
           </Link>
-          <Link href="/#roadmap">
+
+          <Link href="/#roadmap" >
             <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 scroll-smooth">
               Roadmap
             </a>
           </Link>
-          <Link href="/#rarity">
-            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 scroll-smooth">
+          <div className={"hidden"}>
+          <Link href="/#rarity" >
+            <a className=" lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 scroll-smooth">
               Rarity
             </a>
           </Link>
+          </div>
           <Link href="/#team">
-            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 scroll-smooth">
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 scroll-smooth mr-2">
               Team
             </a>
           </Link>
+          <div className={"hidden"}>
           <Link href="/#faq">
-            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 mr-2 scroll-smooth">
+            <a className=" lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:border-b-4 hover:border-indigo-700 mr-2 scroll-smooth">
               FAQ
             </a>
           </Link>
+          </div>
           {document.URL.split("/")[3] == "mint" ? (
             <WalletMultiButton className="btn btn-ghost bg-grey-200" />
           ) : document.URL.split("/")[3] == "early" ? null

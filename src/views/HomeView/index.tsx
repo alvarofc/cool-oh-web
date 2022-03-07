@@ -51,12 +51,12 @@ export const HomeView: FC = ({}) => {
         </section>
         <section className="scroll-mgt" id="what">
           <div className="flow-root">
-            <div className="float-left object-center">
+            <div className="float-left object-center md:w-1/2">
               <p className=" text-2xl text-white font-bold">What are Cool-Ohs?</p>
               <p className="pt-4">Cool-ohs are the living creatures of the Cooloh-verse. The Cooloh-verse as we know it, started with the Big Fart. Since this historical episode, our cool-ohs have become the rockstars of video-games, animated miniseries, apps, and more. </p>
               <p className="pt-4">In 2022, cool-ohs will become an exclusive NFT collection, which will be devoted to share all the process of launching an NFT project from scratch, documenting publicly our “behind the cheeks” including steps taken, decisions made, code built, mistakes, trial and error, and more... We don’t want anyone to miss a fart.</p>
             <p className="pt-4">This world is full of cool-ohs, and we all should have one.</p>
-              <button className="btn border-0 place-content-center mt-10">Visit our Blog</button>
+              <button className="hidden btn border-0 place-content-center mt-10">Visit our Blog</button>
             </div>
             <div className="float-right ">
               <div className="w-50 items-center">
@@ -76,7 +76,9 @@ export const HomeView: FC = ({}) => {
             <h2 className=" text-2xl text-white font-bold">Roadmap</h2>
             <Roadmap />
             </div> </section>
-        <section id="rarity" className="scroll-mgt">
+
+        <section id="rarity" className="hidden scroll-mgt">
+
         <div>
           <h2 className=" text-2xl text-white font-bold">Rarity</h2>
         </div>
@@ -88,7 +90,9 @@ export const HomeView: FC = ({}) => {
           <Team />
         </div>
         </section>
-        <section id="faq" className="scroll-mgt">
+
+        <section id="faq" className="hidden scroll-mgt">
+
         <h2 className=" text-2xl text-white font-bold">Frequently Asked Questions</h2>
           <Faq />
         </section>
